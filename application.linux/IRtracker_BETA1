@@ -1,0 +1,4 @@
+#!/bin/sh
+
+APPDIR=$(dirname "$0")
+java  -Djava.library.path="$APPDIR" -cp "$APPDIR/lib/IRtracker_BETA1.jar:$APPDIR/lib/core.jar:$APPDIR/lib/bluecove-2.0.3.jar:$APPDIR/lib/Loc.jar:$APPDIR/lib/WiiRemoteJ.jar:$APPDIR/lib/wrj4P5.jar" IRtracker_BETA1
